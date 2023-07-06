@@ -35,6 +35,10 @@ body {
 	flex-direction: row;
 }
 
+.navi-container {
+	display: flex;
+}
+
 section {
 	padding: 96px 0;
 }
@@ -64,7 +68,8 @@ section {
 	padding: 40px 0;
 	z-index: 1;
 	&__logo {
-		width: 79px;
+		width: 50%;
+		padding-top: 12px;
         height: 28px;
         color: #fed136;
         color: #ffffff;
@@ -87,7 +92,7 @@ section {
 		align-items: center;
 		flex-direction: row;
 		list-style: none;
-		width: 100%;
+		width: 50%;
 
 		&-item {
 			/* Style for "Menu" */
