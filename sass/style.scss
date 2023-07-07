@@ -69,7 +69,7 @@ section {
 	z-index: 1;
 	&__logo {
 		width: 50%;
-		padding-top: 12px;
+		padding: 46px;
         height: 28px;
         color: #fed136;
         color: #ffffff;
@@ -321,9 +321,9 @@ section {
 		padding: 15px 0;
 
 		&__logo {
-			display: flex;
+			//display: flex;
 			justify-content: center;
-			font-size: 40px;
+			font-size: 32px;
 		}
 
 		&__list {
@@ -333,7 +333,7 @@ section {
 				margin: 0;
 				justify-content: center;
 				a {
-					font-size: 18px;
+					font-size: 16px;
 				}
 				&:not(:last-of-type) {
 					margin-right: 20px;
@@ -447,7 +447,7 @@ section {
 
 			&-item {
 				a {
-					font-size: 22px;
+					font-size: 15px;
 				}
 				&:not(:last-of-type) {
 					margin: 0;
@@ -463,6 +463,7 @@ section {
 }
 
 @media (max-width: 576px) {
+	.navigation_logo
 	.navigation__list-item a {
 		font-size: 12px;
 	}
